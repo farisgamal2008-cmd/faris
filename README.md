@@ -2,8 +2,8 @@
 
 ## Files
 - `index.html` — the birthday surprise website
-- `assets/shedeeny.mp3` — the song supplied for the page
-- `assets/mom.jpg` — add the original photo of Mom here (the photo itself was not available in the files attached to this turn)
+- `shedeeny.mp3` — the song supplied for the page
+- `mom.png` — add the original photo of Mom here (the photo itself was not available in the files attached to this turn)
 
 ## Publish on GitHub Pages
 1. Extract the ZIP.
