@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#170f24">
+<title>Happy Birthday, Mom ❤️</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--bg:#100b18;--panel:#1d1428;--pink:#ff9fc8;--cream:#fff2e7;--gold:#f7d99a;--muted:#c7b8cb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -15%,#4c2450 0%,#1a1025 38%,var(--bg) 75%);color:var(--cream);font-family:'Cairo',sans-serif;min-height:100vh;overflow-x:hidden}
+.stars{position:fixed;inset:0;pointer-events:none;opacity:.5;background-image:radial-gradient(#fff 1px,transparent 1px),radial-gradient(#ffb8d7 1px,transparent 1px);background-size:83px 83px,127px 127px;background-position:0 0,40px 60px;mask-image:linear-gradient(to bottom,black,transparent 80%)}
+.wrap{position:relative;width:min(920px,92%);margin:auto;padding:28px 0 70px}
+.top{display:flex;justify-content:space-between;align-items:center;color:var(--pink);font-size:12px;letter-spacing:2px}
+.pill{border:1px solid #ffffff25;border-radius:999px;padding:7px 13px;background:#ffffff08}
+.hero{text-align:center;padding:70px 0 32px}
+.eyebrow{color:var(--gold);font-size:13px;letter-spacing:3px}
+h1{font-family:'Playfair Display','Cairo',serif;font-size:clamp(42px,8vw,78px);line-height:1.1;margin:18px 0 12px;font-weight:600;direction:ltr}
+h1 span{color:var(--pink);font-style:italic}
+.subtitle{color:var(--muted);font-size:15px;margin:0 auto;max-width:540px;line-height:2}
+.heart{display:inline-grid;place-items:center;width:58px;height:58px;margin-top:26px;border-radius:50%;border:1px solid #ff9fc866;color:var(--pink);font-size:25px;box-shadow:0 0 45px #ff9fc81c;animation:pulse 2s infinite}
+@keyframes pulse{50%{transform:scale(1.08);box-shadow:0 0 45px #ff9fc84a}}
+.photo-card{width:min(430px,100%);margin:20px auto 34px;padding:12px;border:1px solid #ffffff20;border-radius:22px;background:linear-gradient(145deg,#ffffff13,#ffffff03);box-shadow:0 25px 80px #0006;transform:rotate(-1deg)}
+.photo-frame{height:420px;max-height:72vw;min-height:280px;overflow:hidden;border-radius:14px;background:linear-gradient(135deg,#37203f,#21162e);display:grid;place-items:center;position:relative}
+.photo-frame img{width:100%;height:100%;object-fit:cover;display:none}
+.photo-placeholder{text-align:center;padding:25px;color:#e9cbdc}.photo-placeholder .camera{font-size:38px;display:block;margin-bottom:8px}.photo-caption{font-size:11px;color:#d6b8ce;text-align:center;padding-top:12px;letter-spacing:2px}
+.section{margin:34px 0;padding:clamp(22px,5vw,42px);border:1px solid #ffffff18;border-radius:24px;background:linear-gradient(135deg,#ffffff0b,#ffffff03);backdrop-filter:blur(8px)}
+.section h2{font-size:24px;margin:0 0 16px;color:var(--pink)}
+.message{font-size:17px;line-height:2.15;color:#f8eaf1;white-space:pre-line}
+.signature{margin-top:22px;color:var(--gold);font-family:'Playfair Display',serif;font-size:22px;direction:ltr;text-align:right}
+.reveal-wrap{text-align:center;padding:28px 0 8px}
+button{font:inherit;cursor:pointer;border:0}
+.reveal-btn{border-radius:999px;padding:14px 27px;color:#241323;font-weight:800;background:linear-gradient(100deg,var(--pink),var(--gold));box-shadow:0 8px 35px #ff9fc82a;transition:.25s}
+.reveal-btn:hover{transform:translateY(-3px)}
+.hidden-note{display:none;margin:24px auto 0;max-width:560px;border:1px dashed #ffb8d777;border-radius:18px;padding:24px;color:#ffe6f0;line-height:2;background:#ff9fc80a}
+.audio-box{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.disc{width:62px;height:62px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,#f7d99a 0 8%,#26172e 9% 30%,#ff9fc8 31% 33%,#25172d 34%);box-shadow:0 0 28px #ff9fc822;animation:spin 7s linear infinite;animation-play-state:paused}
+@keyframes spin{to{transform:rotate(360deg)}}
+.audio-meta{flex:1;min-width:170px}.audio-meta strong{display:block}.audio-meta small{color:var(--muted)}
+audio{width:100%;margin-top:18px;accent-color:#ff9fc8}
+.footer{text-align:center;color:#9d8ca6;font-size:12px;padding-top:22px}
+.sparkle{color:var(--gold)}
+/* optional setup drawer */
+.setup{margin-top:45px;border:1px solid #ffffff22;border-radius:20px;background:#100b18cc;overflow:hidden}
+.setup summary{cursor:pointer;padding:17px 20px;color:#d9c8e2;font-size:13px}
+.setup-content{padding:0 20px 22px;display:grid;gap:13px}
+.setup-content label{font-size:12px;color:#c7b8cb;display:grid;gap:6px}
+.setup-content input,.setup-content textarea{width:100%;padding:11px 12px;border:1px solid #ffffff26;border-radius:10px;background:#ffffff09;color:#fff;font:inherit}
+.setup-content textarea{min-height:90px;resize:vertical}
+.setup-content input[type=file]{font-size:12px}
+.setup-content .small{font-size:11px;color:#a998b3;line-height:1.8}
+.qr-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#qrcode{background:#fff;padding:10px;border-radius:8px;display:inline-block;min-width:20px}
+#qrcode img{display:block}
+@media(max-width:560px){.hero{padding-top:52px}.photo-frame{height:340px}.section{margin:24px 0}.message{font-size:15px}.top{font-size:10px}}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<main class="wrap">
+  <div class="top"><span class="pill">A LITTLE SURPRISE ✦</span><span>MADE WITH FARIS LOVE ♡</span></div>
+  <header class="hero">
+    <div class="eyebrow">TODAY IS ALL ABOUT YOU</div>
+    <h1>Happy Birthday,<br><span id="heroName">My Favorite Person MOM </span></h1>
+    <p class="subtitle" id="subtitle">A tiny corner of the internet, made for someone who means the whole world.</p>
+    <div class="heart">♡</div>
+  </header>
+
+  <div class="photo-card">
+    <div class="photo-frame">
+      <img id="mainPhoto" src="mom.png" alt="A favorite memory" onerror="this.style.display='none';document.getElementById('photoPlaceholder').style.display='grid'">
+      <div class="photo-placeholder" id="photoPlaceholder"><span class="camera">✧</span><strong>OUR FAVORITE MEMORY</strong><br><small>ضع صورة ماما باسم mom.jpg داخل مجلد assets</small></div>
+    </div>
+    <div class="photo-caption">ONE OF MY FAVORITE MOMENTS ✦ FOREVER</div>
+  </div>
+
+  <section class="section">
+    <h2>رسالة من القلب <span class="sparkle">✧</span></h2>
+    <div class="message" id="messageText">كل سنة وانتي طيبة يا أغلى وأحن إنسانة في حياتي ❤️❤️
+
+يمكن مهما كبرت ومهما عرفت أعبّر عن اللي جوايا عمري ما هوفيكي حقك ولا هعرف أوصف قد إيه وجودك في حياتي نعمة كبيرة من ربنا
+
+نفسي أشوفك دايمًا مبسوطة ومرتاحة ونفسي أقدر أحققلك كل اللي تتمنيه وأكون سبب في فرحتك زي ما كنتي دايمًا سبب في قوتي ربنا يديكي الصحة وطولة العمر ويباركلي فيكي وما يحرمنيش منك</div>
+    <div class="signature" id="signature">With all my love, always ♡</div>
+  </section>
+
+  <section class="section">
+    <h2>Our little soundtrack ♫</h2>
+    <div class="audio-box">
+      <div class="disc" id="disc"></div>
+      <div class="audio-meta"><strong id="songTitle">SHEDEENY</strong><small>اضغط تشغيل واستمتعوا باللحظة</small></div>
+    </div>
+    <audio id="songPlayer" controls preload="metadata" src="shedeeny.mp3"></audio>
+    <p class="small" style="color:#a998b3;font-size:11px;line-height:1.8">ملاحظة: أغلب المتصفحات لا تسمح بتشغيل الموسيقى تلقائيًا؛ اضغط تشغيل بنفسك. أضف ملف MP3 من لوحة التخصيص.</p>
+  </section>
+
+  <div class="reveal-wrap">
+    <p style="color:#c7b8cb;margin-bottom:18px">لسه في مفاجأة صغيرة مستنياكي…</p>
+    <button class="reveal-btn" id="revealBtn">هديتك عندي 😉</button>
+    <div class="hidden-note" id="hiddenNote">ماما حبيبتي، دي هدية صغيرة لحد الهديه الحقيقيه ربنا يخليكي ليا طول العمر. بحبك ❤️✨</div>
+  </div>
+
+
+  <footer class="footer">A little page. A lot of love. <span class="sparkle">✦</span></footer>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+$('nameInput').addEventListener('input',e=>{$('heroName').textContent=e.target.value||'My Favorite Person'});
+$('subtitleInput').addEventListener('input',e=>{$('subtitle').textContent=e.target.value});
+$('messageInput').addEventListener('input',e=>{$('messageText').textContent=e.target.value});
+$('signatureInput').addEventListener('input',e=>{$('signature').textContent=e.target.value});
+$('songNameInput').addEventListener('input',e=>{$('songTitle').textContent=e.target.value});
+$('photoInput').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;const u=URL.createObjectURL(f);$('mainPhoto').src=u;$('mainPhoto').style.display='block';$('photoPlaceholder').style.display='none'});
+$('songInput').addEventListener('change',e=>{const f=e.target.files[0];if(!f)return;$('songPlayer').src=URL.createObjectURL(f);$('disc').style.animationPlayState='running'});
+$('songPlayer').addEventListener('play',()=>$('disc').style.animationPlayState='running');
+$('songPlayer').addEventListener('pause',()=>$('disc').style.animationPlayState='paused');
+$('revealBtn').addEventListener('click',()=>{const n=$('hiddenNote');n.style.display=n.style.display==='block'?'none':'block';$('revealBtn').textContent=n.style.display==='block'?'اقفلي الهدية ♡':'هديتك عندي 😉';if(n.style.display==='block')confetti()});
+function confetti(){const colors=['#ff9fc8','#f7d99a','#fff2e7','#c8a2e8'];for(let i=0;i<65;i++){const p=document.createElement('i');p.textContent=['✦','♡','✧','·'][Math.floor(Math.random()*4)];p.style.cssText=`position:fixed;z-index:10;left:${Math.random()*100}vw;top:-20px;color:${colors[Math.floor(Math.random()*colors.length)]};font-style:normal;font-size:${12+Math.random()*18}px;pointer-events:none;transition:transform ${2+Math.random()*2}s linear,opacity 3s;`;document.body.appendChild(p);requestAnimationFrame(()=>{p.style.transform=`translateY(${window.innerHeight+60}px) rotate(${Math.random()*500}deg)`;p.style.opacity='0'});setTimeout(()=>p.remove(),4200)}}
+$('makeQr').addEventListener('click',()=>{const url=$('urlInput').value.trim();if(!url){alert('اكتب رابط الموقع بعد نشره أولًا.');return}if(!/^https?:\/\//i.test(url)){alert('اكتب رابطًا كاملًا يبدأ بـ https://');return}const box=$('qrcode');box.innerHTML='';const img=document.createElement('img');img.alt='QR code';img.width=180;img.height=180;img.src='https://api.qrserver.com/v1/create-qr-code/?size=180x180&data='+encodeURIComponent(url);img.onerror=()=>{box.textContent='تعذر إنشاء QR الآن. جرّب مرة أخرى.'};box.appendChild(img);});
+</script>
+</body>
+</html>
